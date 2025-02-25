@@ -13,6 +13,13 @@
 
 .sidebar {
 	width: 30%;
+	padding-top: 80px;
+}
+
+.sidebar img {
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 .aboutBody {
@@ -69,7 +76,8 @@
 
 @media screen and (max-width: 1200px) {
 	.aboutContainer {
-		margin: 20px 20px;
+		margin: 60px 20px;
+		margin-top: 100px;
 	}
 }
 
