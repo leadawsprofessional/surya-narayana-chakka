@@ -32,9 +32,10 @@ export default function About({ aboutData = [], highlights = [] }) {
 					</ul>
 				</div>
 			</div>
-			{/* <div className={styles.sidebar}>
-				<QuickLinks />
-			</div> */}
+			<div className={styles.sidebar}>
+				{/* <QuickLinks /> */}
+				<img src="/img/Pic.jpg" alt="Profile" />
+			</div> 
 		</div>
 	);
 }
