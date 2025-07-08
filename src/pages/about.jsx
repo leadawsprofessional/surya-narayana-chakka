@@ -7,7 +7,7 @@ export default function About({ aboutData = [], highlights = [] }) {
 	return (
 		<div className={styles.aboutContainer}>
 			<Head>
-				<title>Manjeet Malaga</title>
+				<title>Narendra Kandregula</title>
 				<meta name="author" content="Name" />
 			</Head>
 			<div className={styles.aboutContent}>
@@ -43,16 +43,17 @@ export default function About({ aboutData = [], highlights = [] }) {
 export async function getServerSideProps() {
 	try {
 		const aboutData = [
-			"Experienced Senior Technical Program Manager & Software Development Leader with 20+ years of expertise in cloud computing, big data, security, and software development. Adept at leading high-performing global teams, optimizing costs, and driving scalable technology solutions across AWS, FINRA, Synechron, and more. Proven track record in delivering complex projects, managing multi-million dollar revenues, and transforming enterprise applications through big data, AI/ML, cloud, and security-driven architectures. Passionate about driving innovation, automating processes, and mentoring teams to achieve operational excellence and business success.",
+			"Experienced Full-Stack Developer and Cloud Solution Architect with over 11 years of expertise in building scalable, distributed, and cloud-native applications across finance, telecom, and technology domains. Proven ability to architect and develop microservices, real-time systems, and responsive user interfaces using Java, Spring Boot, React, and AWS. Adept at integrating cloud services, optimizing performance, and leading Agile teams to deliver high-impact enterprise software. Committed to writing clean, maintainable code and driving technical excellence across the development lifecycle.",
 		];
 
 		const highlights = [
-			"Technology Leader with deep expertise in cloud architecture, data engineering, and security.",
-			"Strong background in AWS services, big data processing, DevOps, and full-stack development.",
-			"Experienced in building, scaling, and securing cloud-based applications while leading cross-functional teams.",
-			"Skilled in cost optimization, project management, and delivering high-impact technology transformations.",
-			"Hands-on experience in Java, Scala, Python, Node.js, React.js, and various data processing tools.",
-			"A results-driven professional known for solving complex technical challenges, improving operational efficiency, and delivering enterprise-grade solutions.",
+			"11+ years of hands-on experience in full-stack development, cloud architecture, and microservices design.",
+			"Expert in Java, Spring Boot, RESTful APIs, React.js, Kafka, and AWS services including EC2, S3, and Lambda.",
+			"Built and maintained high-throughput systems in investment banking, managing data pipelines and secure services.",
+			"Strong background in frontend development with React, Redux, Jest, and responsive design principles.",
+			"Experience with DevOps practices including Docker, Jenkins, Git, CI/CD, and infrastructure automation.",
+			"Certified AWS Developer Associate and Oracle Certified Java Programmer with a passion for scalable architecture and clean code.",
+			"Effective communicator and team player with a track record of mentoring engineers and collaborating across global teams.",
 		];
 
 		return {

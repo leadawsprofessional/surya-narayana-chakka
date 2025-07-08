@@ -6,7 +6,7 @@ export default function News({ articles = [] }) {
 	return (
 		<div className={styles.articleContainer}>
 			<Head>
-				<title>Manjeet Malaga</title>
+				<title>Narendra Kandregula</title>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.articleContent}>
@@ -48,11 +48,18 @@ export async function getServerSideProps() {
 	try {
 		const articles = [
 			{
-				title: "Title",
-				link: "#",
+				title: "Narendra Kandregula Launches Visionary Book: AI Unleashed – Machine Learning's Role in the Next Industrial Revolution",
+				link: "https://forbes.ge/en/narendra-kandregula-launches-visionary-book-ai-unleashed-machine-learning-s-role-in-the-next-industrial-revolution/",
 				image: "img/news1.png",
-				content: "Content"
-			}
+				content: "In a world being reshaped by artificial intelligence, where industries are transforming and the boundaries of human capability are continuously redefined, the need for clarity and strategic insight has never been greater. Responding to the growing demand for strategic insight into artificial intelligence, Narendra Kandregula has released his latest book, AI Unleashed: Machine Learning’s Role in the Next Industrial Revolution."
+			},
+			{
+				title: "Narendra Kandregula –A Legacy of Innovation in Financial Technology",
+				link: "https://techbullion.com/narendra-kandregula-a-legacy-of-innovation-in-financial-technology/",
+				image: "img/news2.png",
+				content: "In an era where financial markets demand unprecedented speed and adaptability, Narendra Kandregula stands as a pioneering force in FinTech innovation. With over 12 years of experience at Fortune 500 companies, Narendra has carved a niche as a leader in designing cloud-native, high-performance systems that redefine scalability and efficiency. Currently serving as Assistant Vice President at Deutsche Bank in New York, he spearheads the development of cutting-edge platforms for the Fixed Income market, where precision and innovation converge. "
+			},
+
 		];
 
 		return {

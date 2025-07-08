@@ -7,7 +7,7 @@ export default function Books({ books = [] }) {
 	return (
 		<div className={styles.booksContainer}>
 			<Head>
-				<title>Manjeet Malaga</title>
+				<title>Narendra Kandregula</title>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.booksContent}>
@@ -15,26 +15,30 @@ export default function Books({ books = [] }) {
 				<div className={styles.booklist}>
 					{books.length > 0 ? (
 						books.map((book, index) => (
-							<div className={styles.book} key={index}>
-								<Link
-									href={book.link}
-									className={styles.bookLink}
-									target="_blank"
-								>
-									<iframe
-									title={book.title}
-									width="500"
-									className={styles.embeddedBook}
-									height="550"
-									frameborder="0"
-									allowfullscreen="true" 
-									allowtransparency="true"
-									src="https://www"
-								></iframe>
-								</Link>
-								<h5 className={styles.bookTitle}>
-									{book.title}
-								</h5>
+							<div className={styles.bookCard} key={index}>
+							  <a
+							    href={book.link}
+							    target="_blank"
+							    rel="noopener noreferrer"
+							    className={styles.bookImageLink}
+							  >
+							    <img
+							      src={book.image.startsWith("/") ? book.image : `/${book.image}`}
+							      alt={book.title}
+							      className={styles.bookImage}
+							    />
+							  </a>
+							  <div className={styles.bookInfo}>
+							    <h5 className={styles.bookTitle}>{book.title}</h5>
+							    <a
+							      href={book.link}
+							      target="_blank"
+							      rel="noopener noreferrer"
+							      className={styles.amazonButton}
+							    >
+							      📘 Buy Now on Amazon
+							    </a>
+							  </div>
 							</div>
 						))
 					) : (
@@ -50,9 +54,9 @@ export async function getServerSideProps() {
 	try {
 		const books = [
 			{
-				title: "",
-				link: "#",
-				image: "img/book.jpg",
+				title: "AI Unleashed: : Machine Learning's Role in the Next Industrial Revolution",
+				link: "https://www.amazon.in/AI-Unleashed-Learnings-Industrial-Revolution-ebook/dp/B0F9TY85B4",
+				image: "img/book.png",
 			},
 		];
 

@@ -37,7 +37,7 @@ export default function Navbar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <Link href="/">MM</Link>
+                <Link href="/">NK</Link>
             </div>
             <div
                 className={`${styles.navLinks} ${
@@ -48,9 +48,9 @@ export default function Navbar() {
                 <Link href="/">Home</Link>
                 <Link href="/articles">Articles</Link>
                 <Link href="/about">About</Link>
-                {/* <Link href="/">Award</Link>
-                <Link href="/">Books Authored</Link>
-                <Link href="/">News</Link> */}
+                <Link href="/news">Award</Link>
+                <Link href="/books">Books Authored</Link>
+                <Link href="/news">News</Link>
             </div>
             <div className={styles.menuIcon} onClick={toggleMenu}>
                 {isMenuOpen ? <RxCross1 /> : <GiHamburgerMenu />}
@@ -66,15 +66,15 @@ export default function Navbar() {
                     <Link href="/about" onClick={toggleMenu}>
                         About
                     </Link>
-                    {/* <Link href="/" onClick={toggleMenu}>
+                    <Link href="/news" onClick={toggleMenu}>
                         Award
                     </Link>
-                    <Link href="/" onClick={toggleMenu}>
+                    <Link href="/books" onClick={toggleMenu}>
                         Books Authored
                     </Link>
-                    <Link href="/" onClick={toggleMenu}>
+                    <Link href="/news" onClick={toggleMenu}>
                         News
-                    </Link> */}
+                    </Link>
                 </div>
             )}
         </nav>

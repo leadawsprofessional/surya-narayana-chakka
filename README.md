@@ -1,1 +1,1 @@
-# Manjeet Malaga Portfolio website
+# Narendra Kandregula Portfolio website

@@ -10,30 +10,32 @@ export const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.logoSection}>
-                    <h1 className={styles.logo}>Manjeet Malaga</h1>
+                    <h1 className={styles.logo}>Narendra Kandregula</h1>
                     <p className={styles.tagline}>
-                    Cloud & Big Data: AWS (Lambda, Glue, Athena, EMR, Redshift, S3, API Gateway, SNS, SQS, CloudWatch), Spark, Trino, Presto
- Programming & Development: Java, Scala, Python, Go, Node.js, TypeScript, React.js, AngularJS
- DevOps & CI/CD: Docker, Kubernetes (EKS, ECS), Jenkins, TeamCity, Git, Terraform
- Enterprise & Security: Cloud Security, IAM, HIPAA Compliance, FinTech & RegTech Solutions
- Data Engineering & Analytics: ETL Pipelines, Data Orchestration, Jupyter Notebooks, Zeppelin
- Project & Program Management: Agile, Scrum, TPM, Cross-functional Leadership, Cost Optimization
- Databases & Storage: DynamoDB, Redshift, SQL Server, Oracle, MongoDB, MySQL
- Enterprise Applications: Financial Dashboards, Market Surveillance Systems, Tax & Compliance Platforms 
+                    Languages: Java, JavaScript, Python, SQL, C
+                    Frontend: ReactJS, Redux, HTML5, CSS3, JavaScript, JSP
+                    Backend: Spring Boot, J2EE, Flask, Hibernate, JPA, Spring AOP
+                    Databases: Oracle, MySQL, MS SQL Server, Cassandra, Sybase, MongoDB
+                    Cloud: AWS (EC2, S3, Lambda, SQS), Private Cloud
+                    DevOps & Tools: Git, Jenkins, Jira, Bitbucket, Maven, Docker, SonarQube
+                    Testing: JUnit, Selenium, Mockito, Jest, Enzyme, Puppeteer, Cucumber
+                    Big Data & Messaging: Kafka, KDB, Informatica
+                    Workflow & Design: Figma (UX/UI), Spring State Machine, Highcharts
+                    Others: Elastic Search, Autosys, AWS CI/CD, Swagger, Liferay, JSF, Portlets 
                     </p>
                 </div>
                 <div className={styles.socialSection}>
                     <h3 className={styles.heading}>Connect Me</h3>
                     <div className={styles.socialIcons}>
-                        <Link href="https://www.linkedin.com/in/manjeet-malaga-it-deliverymgr/">
+                        <Link href="https://www.linkedin.com/in/narendrakandregula">
                             <FaLinkedin />{" "}
                             {/* <span className={styles.linkText}>LinkedIn</span> */}
                         </Link>
-                        <Link href="https://independent.academia.edu/ManjeetMalaga">
-                            <SiAcademia /> 
-							{/* ResearchGate */}
+                        <Link href="https://www.researchgate.net/profile/Narendra-Kandregula-2">
+                            {/* <SiAcademia />  */}
+							ResearchGate
                         </Link>
-                        <Link href="https://scholar.google.com/citations?user=NQv82nYAAAAJ&hl=en&authuser=1">
+                        <Link href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=5&hl=en&user=InQ6BDsAAAAJ&authuser=5">
                             <FaGoogleScholar />{" "}
                             {/* <span className={styles.linkText}> */}
                                 {/* Google Scholar */}
@@ -44,7 +46,7 @@ export const Footer = () => {
             </div>
             <div className={styles.footerBottom}>
                 <p>
-                    &copy; {new Date().getFullYear()} Manjeet Malaga. All Rights
+                    &copy; {new Date().getFullYear()} Narendra Kandregula. All Rights
                     Reserved.
                 </p>
             </div>

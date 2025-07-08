@@ -7,7 +7,7 @@ export default function Articles({ articles = [] }) {
     return (
         <div className={styles.articleContainer}>
             <Head>
-                <title>Manjeet Malaga</title>
+                <title>Narendra Kandregula</title>
                 <meta name="author" content="Your Name" />
             </Head>
             <div className={styles.articleContent}>
@@ -64,60 +64,81 @@ export async function getServerSideProps() {
     try {
         const articles = [
             {
-                title: "Scaling Cloud Security in AWS: Best Practices and Strategies for Efficient Incident Response Management",
-                link: "https://tijer.org/tijer/papers/TIJER1912002.pdf",
-                year: "2019",
-                publisher: "TIJER",
+                title: "AI-Driven Financial Forecasting in Fintech: Enhancing Predictive Accuracy Through Machine Learning and Deep Learning Models",
+                link: "https://www.ijrar.org/papers/IJRAR19D6877.pdf",
+                year: "2018",
+                publisher: "IJRAR",
                 image: "img/paper/1.png",
             },
             {
-                title: "Cost Optimization in Cloud Computing: Strategic Approaches to Minimizing AWS Expenses without Compromising Performance",
-                link: "https://www.ijaresm.com/uploaded_files/document_file/Manjeet_MalagaWHMx.pdf",
+                title: "Smart Contracts and DeFi Protocols: Enhancing Security, Transparency, and Efficiency in Financial Transactions",
+                link: "https://www.ijaresm.com/uploaded_files/document_file/Narendra_KandregulajcYj.pdf",
                 year: "2019",
                 publisher: "IJARESM",
                 image: "img/paper/2.png",
             },
             {
-                title: "Next-Generation Big Data Analytics: Integrating AI and Machine Learning for Scalable Decision-Making Frameworks",
-                link: "https://www.ijirset.com/upload/2021/march/214_Next.pdf",
-                year: "2021",
-                publisher: "IJIRSET",
+                title: "Leveraging Artificial Intelligence for Real-Time Fraud Detection in Financial Transactions: A Fintech Perspective",
+                link: "https://wjarr.com/sites/default/files/WJARR-2019-0129.pdf",
+                year: "2019",
+                publisher: "WJARR",
                 image: "img/paper/3.png",
             },
             {
-                title: "The Future of Smart Cities: Integrating IoT and 5G for Seamless Urban Automation and Sustainability",
-                link: "https://www.irejournals.com/formatedpaper/1703489.pdf",
-                year: "2022",
-                publisher: "IREJournals",
+                title: "Optimizing Big Data Workflows with Machine Learning: A Framework for Intelligent Data Engineering",
+                link: "https://welltestingjournal.com/index.php/WT/article/view/161",
+                year: "2020",
+                publisher: "Well Testing Journal",
                 image: "img/paper/4.png",
             },
             {
-                title: "Advancing Artificial Intelligence Through Machine Learning: Exploring Novel Architectures, Algorithmic Innovations and Real-World Applications for Transformative Impact",
-                link: "https://www.irejournals.com/formatedpaper/1703908.pdf",
-                year: "2022",
-                publisher: "IREJournals",
+                title: "Exploring Software-Defined Vehicles: A Comparative Analysis of AI and ML Models for Enhanced Autonomy and Performanc",
+                link: "https://www.ijrar.org/papers/IJRAR19S1836.pdf",
+                year: "2020",
+                publisher: "IJRAR",
                 image: "img/paper/5.png",
             },
             {
-                title: "Pushing the Frontiers of AI and Machine Learning: Advanced Techniques, Ethical Implications, and Transformative Applications Across Industries",
-                link: "https://www.ijrar.org/papers/IJRAR24A3612.pdf",
-                year: "2024",
-                publisher: "IJRAR",
+                title: "Leveraging Artificial Intelligence and Machine Learning for Market Prediction in the Fintech Industry: A Comparative Analysis of Predictive Models and Their Impact on Financial Decision-Making",
+                link: "https://welltestingjournal.com/index.php/WT/article/view/160",
+                year: "2021",
+                publisher: "Well Testing Journal",
                 image: "img/paper/6.png",
             },
             {
-                title: "Cybersecurity in the Digital Age: Advanced Strategies for Threat Detection, Prevention, and Resilience ",
-                link: "https://ijircce.com/admin/main/storage/app/pdf/EZ8fUys8brVJCoKy6TkQaqY01UGJh0rOQeJnUc07.pdf",
-                year: "2021",
-                publisher: "IJIRCCE",
+                title: "Evaluating Performance and Scalability of Multi-Cloud Environments: Key Metrics and Optimization Strategies",
+                link: "https://wjarr.com/sites/default/files/WJARR-2022-0560.pdf",
+                year: "2022",
+                publisher: "WJARR",
                 image: "img/paper/7.png",
             },
             {
-                title: "Generative AI in Business Consulting: Redefining Strategic Insights",
-                link: "https://welltestingjournal.com/index.php/WT/article/view/32.1.37",
+                title: "Revolutionizing Fintech with Generative AI: Enhancing Financial Decision-Making, Risk Management, and Customer Experience",
+                link: "https://www.ijaresm.com/uploaded_files/document_file/Narendra_KandregulahHwJ.pdf",
+                year: "2022",
+                publisher: "IJARESM",
+                image: "img/paper/8.png",
+            },
+            {
+                title: "Optimizing IoT Data Modeling: Advanced Frameworks for Real-Time Analytics, Scalability, and Security",
+                link: "https://revistadecineforum.com/index.php/cf/article/view/275",
+                year: "2023",
+                publisher: "CINEFORUM",
+                image: "img/paper/9.png",
+            },
+            {
+                title: "AI-Driven Cybersecurity in Fintech: Leveraging Machine Learning for Threat Detection, Fraud Prevention, and Risk Mitigation",
+                link: "https://welltestingjournal.com/index.php/WT/article/view/159",
                 year: "2023",
                 publisher: "Well Testing Journal",
-                image: "img/paper/8.png",
+                image: "img/paper/10.png",
+            },
+            {
+                title: "Accelerating Drug Discovery with Generative AI: A Paradigm Shift in Pharmaceutical Innovation and Development",
+                link: "https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2025-0845.pdf",
+                year: "2025",
+                publisher: "WJARR",
+                image: "img/paper/11.png",
             },
         ];
 

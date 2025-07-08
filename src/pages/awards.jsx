@@ -7,7 +7,7 @@ export default function Awards({ articles = [] }) {
     return (
         <div className={styles.articleContainer}>
             <Head>
-                <title>Manjeet Malaga</title>
+                <title>Narendra Kandregula</title>
                 <meta name="author" content="Your Name" />
             </Head>
             <div className={styles.articleContent}>

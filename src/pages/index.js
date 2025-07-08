@@ -30,7 +30,7 @@ export default function Home({ user }) {
                             <ul className={styles.linksList}>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://www.linkedin.com/in/manjeet-malaga-it-deliverymgr/"
+                                        href="https://www.linkedin.com/in/narendrakandregula"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -39,18 +39,18 @@ export default function Home({ user }) {
                                 </li>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://independent.academia.edu/ManjeetMalaga"
+                                        href="https://www.researchgate.net/profile/Narendra-Kandregula-2"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <SiAcademia
                                             className={styles.icon}
-                                        /> Academia
+                                        /> ResearchGate
                                     </a>
                                 </li>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://scholar.google.com/citations?user=NQv82nYAAAAJ&hl=en&authuser=1"
+                                        href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=5&hl=en&user=InQ6BDsAAAAJ&authuser=5"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -98,10 +98,10 @@ export default function Home({ user }) {
 
 export async function getServerSideProps() {
     const user = {
-        name: "Manjeet Malaga",
-        title: "Cloud & Big Data: AWS (Lambda, Glue, Athena, EMR, Redshift, S3, API Gateway, SNS, SQS, CloudWatch), Spark, Trino, Presto  Programming & Development: Java, Scala, Python, Go, Node.js, TypeScript, React.js, AngularJS  DevOps & CI/CD: Docker, Kubernetes (EKS, ECS), Jenkins, TeamCity, Git, Terraform  Enterprise & Security: Cloud Security, IAM, HIPAA Compliance, FinTech & RegTech Solutions Data Engineering & Analytics: ETL Pipelines, Data Orchestration, Jupyter Notebooks, Zeppelin Project & Program Management: Agile, Scrum, TPM, Cross-functional Leadership, Cost Optimization Databases & Storage: DynamoDB, Redshift, SQL Server, Oracle, MongoDB, MySQL Enterprise Applications: Financial Dashboards, Market Surveillance Systems, Tax & Compliance Platforms",
+        name: "Narendra Kandregula",
+        title: "Experienced Full-Stack Developer and Cloud Solution Architect with over 11 years of expertise in building scalable, distributed, and cloud-native applications across finance, telecom, and technology domains. Proven ability to architect and develop microservices, real-time systems, and responsive user interfaces using Java, Spring Boot, React, and AWS. Adept at integrating cloud services, optimizing performance, and leading Agile teams to deliver high-impact enterprise software. Committed to writing clean, maintainable code and driving technical excellence across the development lifecycle.",
         profileImage: "/img/Pic.jpg",
-        about: `Technology Leader with deep expertise in cloud architecture, data engineering, and security. Strong background in AWS services, big data processing, DevOps, and full-stack development. Experienced in building, scaling, and securing cloud-based applications while leading cross-functional teams. Skilled in cost optimization, project management, and delivering high-impact technology transformations. Hands-on experience in Java, Scala, Python, Node.js, React.js, and various data processing tools. A results-driven professional known for solving complex technical challenges, improving operational efficiency, and delivering enterprise-grade solutions.`,
+        about: `I am Narendra Kandregula, a highly skilled and versatile Full-Stack Developer with over 11 years of industry experience in building scalable, cloud-native applications across finance, technology, and telecom sectors. My expertise lies in designing and implementing large-scale distributed systems, cloud-based microservices, and high-performance front-end interfaces using cutting-edge technologies.Throughout my career, I have led the development of complex enterprise platforms, collaborated with cross-functional teams, and delivered impactful digital solutions. From architecting real-time trading systems in investment banking to driving integration platforms at leading tech firms, I bring a deep understanding of both backend logic and frontend usability. I’m passionate about clean code, performance optimization, and mentoring the next generation of developers. With hands-on proficiency in AWS, Java, Spring Boot, React, Kafka, and DevOps tools, I strive to build software that is not only functional but also elegant, scalable, and future-ready.`,
     };
 
     return {
