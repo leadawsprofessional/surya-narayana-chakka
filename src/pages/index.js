@@ -30,7 +30,7 @@ export default function Home({ user }) {
                             <ul className={styles.linksList}>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://www.linkedin.com/in/narendrakandregula"
+                                        href="https://www.linkedin.com/in/rahul-modak-14443441"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -39,7 +39,7 @@ export default function Home({ user }) {
                                 </li>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://www.researchgate.net/profile/Narendra-Kandregula-2"
+                                        href="https://www.researchgate.net/profile/Rahul-Modak-4?ev=hdr_xprf"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -50,7 +50,7 @@ export default function Home({ user }) {
                                 </li>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=5&hl=en&user=InQ6BDsAAAAJ&authuser=5"
+                                        href="https://scholar.google.com/citations?hl=en&user=hLG6k8QAAAAJ&scilu=&scisig=ACUpqDcAAAAAaEVcbUThSY1E34TK9DmHVyZAfvQ&gmla=AH8HC4zeSViiqobF-r-f_pfeVBcEBqWHxm0guJ-rboUkxNL8r7f4MjQjt4yxPE11D37yhPC0FzlONpRLdGXvPzpyEMNM61Xpu0c2NQI&sciund=1090311730389284311&gmla=AH8HC4zMWEis13AyDGF9uD-7uhn-ezTxh1W0a4H8gFHPyvs8wj742FUODjGs_5j36WgKZoNf1UziGu4_zegX8lVUnoi6n8rqiy1es3ZZhh8&sciund=18417712584777429016&gmla=AH8HC4x1uXOm6Qi_mGn1X2Ou7L8ccIOPIC6E1eOr3NfBGTaKeBUFygVlHhK9KEWM2QGB7Wz_OZI3pZ6PCnUZXVdADjyxsThZIwg6IA7uhAg&sciund=6461340445237614903&gmla=AH8HC4zN1LqYf-8haGC1KRq0Osb2Ed8rkRoRxxdbSSh28ktECsEzqEepWeuhKATH-n1K1R0IEwbTEdi8-OxQ0CY3fpq5JG_SdvLOmDP7BHU&sciund=10341401432337321755&gmla=AH8HC4zf2y4MVCGsZ_MpNeIm0s3npvqjI9LOy5IRh71M4ncq_LnxC_xR6samgU7b78SHhhysycsupJT7aX9BD1afjek299bS8OVmHum35wk&sciund=13854706460157834700"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -98,10 +98,10 @@ export default function Home({ user }) {
 
 export async function getServerSideProps() {
     const user = {
-        name: "Narendra Kandregula",
-        title: "Experienced Full-Stack Developer and Cloud Solution Architect with over 11 years of expertise in building scalable, distributed, and cloud-native applications across finance, telecom, and technology domains. Proven ability to architect and develop microservices, real-time systems, and responsive user interfaces using Java, Spring Boot, React, and AWS. Adept at integrating cloud services, optimizing performance, and leading Agile teams to deliver high-impact enterprise software. Committed to writing clean, maintainable code and driving technical excellence across the development lifecycle.",
-        profileImage: "/img/Pic.jpg",
-        about: `I am Narendra Kandregula, a highly skilled and versatile Full-Stack Developer with over 11 years of industry experience in building scalable, cloud-native applications across finance, technology, and telecom sectors. My expertise lies in designing and implementing large-scale distributed systems, cloud-based microservices, and high-performance front-end interfaces using cutting-edge technologies.Throughout my career, I have led the development of complex enterprise platforms, collaborated with cross-functional teams, and delivered impactful digital solutions. From architecting real-time trading systems in investment banking to driving integration platforms at leading tech firms, I bring a deep understanding of both backend logic and frontend usability. I’m passionate about clean code, performance optimization, and mentoring the next generation of developers. With hands-on proficiency in AWS, Java, Spring Boot, React, Kafka, and DevOps tools, I strive to build software that is not only functional but also elegant, scalable, and future-ready.`,
+        name: "Rahul Modak",
+        title: "Data & AI Solutions Architect | Cloud Transformation Leader | Innovator in Intelligent Systems",
+        profileImage: "/img/Pic.jpeg",
+        about: `I am Rahul Modak, a seasoned Data, AI/ML, and Cloud Solutions Leader with over 20 years of experience, including more than a decade in architecting and leading enterprise-scale data and AI initiatives across financial, healthcare, and technology domains. My expertise spans multi-cloud architectures, big data engineering, advanced analytics, and generative AI, where I have designed and delivered high-performing, cost-effective solutions that drive measurable business outcomes. Throughout my career, I have led cross-functional teams in building award-winning AI/ML applications, scalable data platforms, and intelligent automation systems. My leadership at LPL Financial, PayPal, and CVS has centered around enabling organizations to transform their data ecosystems, improve operational efficiency, and harness the power of AI-driven insights for decision-making. As a Celent Model Wealth Manager Award Winner and a Globee Awards Judge for Artificial Intelligence, I remain passionate about driving innovation in AI, LLMs, and cloud-native architectures. I believe in fostering collaboration, mentoring talent, and aligning technology vision with business strategy to create impactful digital transformations. When not leading technology transformations, I enjoy exploring emerging advancements in AI safety, edge intelligence, and responsible machine learning—continuing my commitment to pushing the boundaries of innovation with purpose.`,
     };
 
     return {

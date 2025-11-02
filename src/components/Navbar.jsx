@@ -37,7 +37,7 @@ export default function Navbar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <Link href="/">NK</Link>
+                <Link href="/">RM</Link>
             </div>
             <div
                 className={`${styles.navLinks} ${

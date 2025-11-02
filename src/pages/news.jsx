@@ -6,7 +6,7 @@ export default function News({ articles = [] }) {
 	return (
 		<div className={styles.articleContainer}>
 			<Head>
-				<title>Narendra Kandregula</title>
+				<title>Rahul Modak</title>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.articleContent}>
@@ -48,16 +48,22 @@ export async function getServerSideProps() {
 	try {
 		const articles = [
 			{
-				title: "Narendra Kandregula Launches Visionary Book: AI Unleashed – Machine Learning's Role in the Next Industrial Revolution",
-				link: "https://forbes.ge/en/narendra-kandregula-launches-visionary-book-ai-unleashed-machine-learning-s-role-in-the-next-industrial-revolution/",
+				title: "Rahul Modak Releases Groundbreaking Book on Predictive Analytics in Finance",
+				link: "https://www.indiehackers.com/post/rahul-modak-releases-groundbreaking-book-on-predictive-analytics-in-finance-TKmnfu82ECezXkwueH77",
 				image: "img/news1.png",
-				content: "In a world being reshaped by artificial intelligence, where industries are transforming and the boundaries of human capability are continuously redefined, the need for clarity and strategic insight has never been greater. Responding to the growing demand for strategic insight into artificial intelligence, Narendra Kandregula has released his latest book, AI Unleashed: Machine Learning’s Role in the Next Industrial Revolution."
+				content: "Artificial intelligence and machine learning technologies transform operational processes in all sectors while leading the financial industry toward substantial changes. The transformation of financial operations depends heavily on predictive decision-making because data has become the main factor that determines business success. Rahul Modak publishes Predictive Analytics in Finance: Machine Learning Models for Credit Scoring and Investment as his new book, which addresses the financial technology sector's challenges between technology and finance. This book, now available on Amazon, serves both as a functional reference and as a conceptual exploration of financial AI intelligence development. The book provides readers with both operational knowledge and conceptual insights about AI-based financial intelligence."
 			},
 			{
-				title: "Narendra Kandregula –A Legacy of Innovation in Financial Technology",
-				link: "https://techbullion.com/narendra-kandregula-a-legacy-of-innovation-in-financial-technology/",
+				title: "Rahul Modak: Merging Technology and Humanity Through Innovation",
+				link: "https://techbullion.com/rahul-modak-merging-technology-and-humanity-through-innovation/",
 				image: "img/news2.png",
-				content: "In an era where financial markets demand unprecedented speed and adaptability, Narendra Kandregula stands as a pioneering force in FinTech innovation. With over 12 years of experience at Fortune 500 companies, Narendra has carved a niche as a leader in designing cloud-native, high-performance systems that redefine scalability and efficiency. Currently serving as Assistant Vice President at Deutsche Bank in New York, he spearheads the development of cutting-edge platforms for the Fixed Income market, where precision and innovation converge. "
+				content: "Rahul Modak’s story—beginning as a curious student in Nagpur and evolving into an AI visionary in South Carolina—illustrates how technology can be harnessed responsibly to yield both business success and social progress. His projects address pressing challenges from client retention to patient safety, all while uplifting underserved communities and cultivating new talent. As enterprises worldwide wrestle with digital transformation, Modak’s blueprint offers clear guidance: align technical ingenuity with ethical stewardship, maintain relentless focus on measurable outcomes, and never lose sight of the human beings behind every data point."
+			},
+			{
+				title: "Rahul Modak: Shaping Predictive Finance Through Responsible Innovation",
+				link: "https://www.techtimes.com/articles/312297/20251016/rahul-modak-shaping-predictive-finance-through-responsible-innovation.htm",
+				image: "img/news3.png",
+				content: "The modern financial system operates through technology, which serves as its essential core for building trust, achieving operational efficiency, and ensuring system stability. The real challenge arises because billions of dollars move between countries and millions of people use digital platforms, yet technology deployment does not automatically result in tangible benefits."
 			},
 
 		];
