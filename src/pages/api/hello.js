@@ -1,3 +1,3 @@
 export default function handler(req, res) {
-  res.status(200).json({ name: "Rahul Modak" });
+  res.status(200).json({ name: "Surya Narayana Chakka" });
 }

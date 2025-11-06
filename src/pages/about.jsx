@@ -7,7 +7,7 @@ export default function About({ aboutData = [], highlights = [] }) {
 	return (
 		<div className={styles.aboutContainer}>
 			<Head>
-				<title>Rahul Modak</title>
+				<title>Surya Narayana Chakka</title>
 				<meta name="author" content="Name" />
 			</Head>
 			<div className={styles.aboutContent}>
@@ -43,21 +43,26 @@ export default function About({ aboutData = [], highlights = [] }) {
 export async function getServerSideProps() {
 	try {
 		const aboutData = [
-			"I am Rahul Modak, a seasoned Data, AI/ML, and Cloud Solutions Leader with over 20 years of experience, including more than a decade in architecting and leading enterprise-scale data and AI initiatives across financial, healthcare, and technology domains. My expertise spans multi-cloud architectures, big data engineering, advanced analytics, and generative AI, where I have designed and delivered high-performing, cost-effective solutions that drive measurable business outcomes. Throughout my career, I have led cross-functional teams in building award-winning AI/ML applications, scalable data platforms, and intelligent automation systems. My leadership at LPL Financial, PayPal, and CVS has centered around enabling organizations to transform their data ecosystems, improve operational efficiency, and harness the power of AI-driven insights for decision-making. As a Celent Model Wealth Manager Award Winner and a Globee Awards Judge for Artificial Intelligence, I remain passionate about driving innovation in AI, LLMs, and cloud-native architectures. I believe in fostering collaboration, mentoring talent, and aligning technology vision with business strategy to create impactful digital transformations. When not leading technology transformations, I enjoy exploring emerging advancements in AI safety, edge intelligence, and responsible machine learning—continuing my commitment to pushing the boundaries of innovation with purpose.",
-		];
+  "I am Surya Narayana Chakka, a Senior SAP Solution Architect with over 20 years of global consulting experience in leading complex end-to-end SAP implementations, S/4HANA migration programs, system integration, and enterprise digital transformation. I specialize in SAP S/4HANA Sales & Distribution (SD/OTC), Supply Chain Management, Customer Service, Variant Configuration, and Logistics Execution, delivering scalable, enterprise-wide solutions across Manufacturing, Pharma, Consumer Goods, Automotive, Medical Devices, and Chemical industries.",
+  "With deep expertise in SAP ECC → S/4HANA transition strategies, business process harmonization, solution blueprinting, and cross-functional stakeholder collaboration, I help organizations modernize core business processes and achieve measurable operational efficiency. I have successfully led multiple global rollouts, migrations, upgrades, and support engagements across multi-country SAP landscapes.",
+  "I am known for bridging the gap between business and technology — working closely with business leaders, process owners, and technical teams to design SAP architectures that align with organizational goals, ensure compliance, reduce cost, and maximize long-term scalability. My leadership approach prioritizes clarity, governance, knowledge enablement, risk-controlled delivery, and high-performance team culture.",
+  "I am certified in SAP S/4HANA Sales, Order Fulfillment, and Central Finance, and I continue to stay aligned with evolving SAP innovations such as FIORI, SAP Activate methodology, Advanced ATP, BRF+, Event-Based Revenue Recognition, and next-generation integration architectures. I am passionate about helping enterprises accelerate transformation, enhance customer experience, and drive profitable business growth."
+];
+
 
 		const highlights = [
-			"Over 20 years of progressive experience in Data Engineering, Cloud Computing, and AI/ML solution delivery across Fortune 500 organizations.",
-	"Proven expertise in architecting large-scale, multi-cloud ecosystems leveraging AWS, Azure, and GCP for data-driven innovation and enterprise automation.",
-	"Leader in designing and deploying production-grade AI/ML and Generative AI platforms that drive measurable business outcomes.",
-	"Deep technical proficiency in Big Data frameworks (Spark, Hadoop, Databricks), Data Warehousing (Snowflake, Redshift), and Advanced Analytics.",
-	"Strategic experience building end-to-end MLOps pipelines with CI/CD, feature stores, model monitoring, and automated retraining workflows.",
-	"Strong background in modern data architectures including Data Mesh, Lakehouse, and event-driven streaming with Kafka and Kinesis.",
-	"Hands-on expertise in API-driven microservices, container orchestration (Docker, Kubernetes), and serverless computing.",
-	"Certified leader in cloud cost optimization, data governance, and security compliance for regulated industries such as Finance and Healthcare.",
-	"Skilled in managing globally distributed Agile teams, mentoring data engineers and scientists, and establishing best practices for scalable engineering delivery.",
-	"Recognized thought leader and industry speaker on AI transformation, with accolades including the Celent Model Wealth Manager Award and Globee Awards Judge for AI.",
-		];
+  "20+ years of global experience leading enterprise SAP S/4HANA, ECC, and digital transformation programs across multi-industry environments.",
+  "Specialized expertise in SAP SD/OTC, Supply Chain, Logistics Execution, Customer Service, and Variant Configuration with deep process knowledge.",
+  "Proven track record in delivering multi-phase global rollouts, greenfield implementations, brownfield migrations, and complex integration architectures.",
+  "Strong leadership in SAP S/4HANA modernization initiatives including business process re-engineering, system harmonization, and data migration strategies.",
+  "Expert in solution blueprinting, requirement analysis, functional specification design, fit-gap analysis, and cross-functional stakeholder alignment.",
+  "Hands-on experience in leading SAP Activate methodology, Agile delivery governance, and best-practice implementation frameworks.",
+  "Experienced in collaborating with global business leaders, COE teams, offshore/onshore resources, and system integrators to ensure delivery excellence.",
+  "Known for bridging business and technology by translating strategic objectives into scalable, sustainable SAP solutions that drive measurable outcomes.",
+  "Consistent history of improving operational efficiency, reducing process cycle times, enabling compliance, and enhancing customer experience through system optimization.",
+  "Passionate about mentoring teams, enabling knowledge transfer, and cultivating high-performance delivery environments."
+];
+
 
 		return {
 			props: { aboutData, highlights },

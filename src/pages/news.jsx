@@ -6,7 +6,7 @@ export default function News({ articles = [] }) {
 	return (
 		<div className={styles.articleContainer}>
 			<Head>
-				<title>Rahul Modak</title>
+				<title>Surya Narayana Chakka</title>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.articleContent}>
@@ -48,23 +48,23 @@ export async function getServerSideProps() {
 	try {
 		const articles = [
 			{
-				title: "Rahul Modak Releases Groundbreaking Book on Predictive Analytics in Finance",
-				link: "https://www.indiehackers.com/post/rahul-modak-releases-groundbreaking-book-on-predictive-analytics-in-finance-TKmnfu82ECezXkwueH77",
+				title: "Surya Narayana Chakka presents his visionary book which examines AI and ML applications for ERP system transformation",
+				link: "https://techbullion.com/surya-narayana-chakka-presents-his-visionary-book-which-examines-ai-and-ml-applications-for-erp-system-transformation/",
 				image: "img/news1.png",
-				content: "Artificial intelligence and machine learning technologies transform operational processes in all sectors while leading the financial industry toward substantial changes. The transformation of financial operations depends heavily on predictive decision-making because data has become the main factor that determines business success. Rahul Modak publishes Predictive Analytics in Finance: Machine Learning Models for Credit Scoring and Investment as his new book, which addresses the financial technology sector's challenges between technology and finance. This book, now available on Amazon, serves both as a functional reference and as a conceptual exploration of financial AI intelligence development. The book provides readers with both operational knowledge and conceptual insights about AI-based financial intelligence."
+				content: "The digital economy operates at an unprecedented rate which forces businesses to transform their operational systems and supply chain management and customer relations approaches. The competitive landscape demands that Enterprise Resource Planning (ERP) systems evolve to incorporate artificial intelligence (AI) and machine learning (ML) and predictive analytics features for businesses to stay competitive. Surya Narayana Chakka wrote Smart ERP Solutions for Digital Commerce: AI and ML Strategies for Business Transformation to study the essential connection between business operations and technological advancements. The book delivers a current analysis of AI and ML applications for ERP system transformation while providing leaders with operational frameworks to link digital innovation to business transformation. Through his more than twenty years of SAP consulting experience Chakka explains complex technical concepts into operational strategies which connect corporate goals to actual business performance."
 			},
 			{
-				title: "Rahul Modak: Merging Technology and Humanity Through Innovation",
-				link: "https://techbullion.com/rahul-modak-merging-technology-and-humanity-through-innovation/",
+				title: "Bridging Business and Technology: The Transformative Journey of Surya Narayana Chakka",
+				link: "https://www.indiehackers.com/post/bridging-business-and-technology-the-transformative-journey-of-surya-narayana-chakka-H7lcvLBsNW0gHKkm9yTS",
 				image: "img/news2.png",
-				content: "Rahul Modak’s story—beginning as a curious student in Nagpur and evolving into an AI visionary in South Carolina—illustrates how technology can be harnessed responsibly to yield both business success and social progress. His projects address pressing challenges from client retention to patient safety, all while uplifting underserved communities and cultivating new talent. As enterprises worldwide wrestle with digital transformation, Modak’s blueprint offers clear guidance: align technical ingenuity with ethical stewardship, maintain relentless focus on measurable outcomes, and never lose sight of the human beings behind every data point."
+				content: "In today’s rapidly changing tech landscape, enterprises often struggle to align evolving business needs with the complexity of digital transformation. The gap between ambition and implementation remains a persistent challenge. Legacy systems, fragmented data structures, rising customer expectations, and siloed business processes further deepen this divide. Many organizations find themselves stalled—unable to scale innovations or unify global operations due to integration bottlenecks, outdated infrastructures, or lack of specialized talent. At this crossroads stands Surya Narayana Chakka—an industry stalwart whose expertise in SAP solutions has not only bridged this divide but significantly reshaped how organizations navigate change with precision and purpose."
 			},
-			{
-				title: "Rahul Modak: Shaping Predictive Finance Through Responsible Innovation",
-				link: "https://www.techtimes.com/articles/312297/20251016/rahul-modak-shaping-predictive-finance-through-responsible-innovation.htm",
-				image: "img/news3.png",
-				content: "The modern financial system operates through technology, which serves as its essential core for building trust, achieving operational efficiency, and ensuring system stability. The real challenge arises because billions of dollars move between countries and millions of people use digital platforms, yet technology deployment does not automatically result in tangible benefits."
-			},
+			// {
+			// 	title: "Surya Narayana Chakka: Shaping Predictive Finance Through Responsible Innovation",
+			// 	link: "https://www.techtimes.com/articles/312297/20251016/rahul-modak-shaping-predictive-finance-through-responsible-innovation.htm",
+			// 	image: "img/news3.png",
+			// 	content: "The modern financial system operates through technology, which serves as its essential core for building trust, achieving operational efficiency, and ensuring system stability. The real challenge arises because billions of dollars move between countries and millions of people use digital platforms, yet technology deployment does not automatically result in tangible benefits."
+			// },
 
 		];
 

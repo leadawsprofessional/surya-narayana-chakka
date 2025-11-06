@@ -30,7 +30,7 @@ export default function Home({ user }) {
                             <ul className={styles.linksList}>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://www.linkedin.com/in/rahul-modak-14443441"
+                                        href="http://www.linkedin.com/in/suryanchakka"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -39,7 +39,7 @@ export default function Home({ user }) {
                                 </li>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://www.researchgate.net/profile/Rahul-Modak-4?ev=hdr_xprf"
+                                        href="https://www.researchgate.net/profile/Surya-Chakka-3"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -50,7 +50,7 @@ export default function Home({ user }) {
                                 </li>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://scholar.google.com/citations?hl=en&user=hLG6k8QAAAAJ&scilu=&scisig=ACUpqDcAAAAAaEVcbUThSY1E34TK9DmHVyZAfvQ&gmla=AH8HC4zeSViiqobF-r-f_pfeVBcEBqWHxm0guJ-rboUkxNL8r7f4MjQjt4yxPE11D37yhPC0FzlONpRLdGXvPzpyEMNM61Xpu0c2NQI&sciund=1090311730389284311&gmla=AH8HC4zMWEis13AyDGF9uD-7uhn-ezTxh1W0a4H8gFHPyvs8wj742FUODjGs_5j36WgKZoNf1UziGu4_zegX8lVUnoi6n8rqiy1es3ZZhh8&sciund=18417712584777429016&gmla=AH8HC4x1uXOm6Qi_mGn1X2Ou7L8ccIOPIC6E1eOr3NfBGTaKeBUFygVlHhK9KEWM2QGB7Wz_OZI3pZ6PCnUZXVdADjyxsThZIwg6IA7uhAg&sciund=6461340445237614903&gmla=AH8HC4zN1LqYf-8haGC1KRq0Osb2Ed8rkRoRxxdbSSh28ktECsEzqEepWeuhKATH-n1K1R0IEwbTEdi8-OxQ0CY3fpq5JG_SdvLOmDP7BHU&sciund=10341401432337321755&gmla=AH8HC4zf2y4MVCGsZ_MpNeIm0s3npvqjI9LOy5IRh71M4ncq_LnxC_xR6samgU7b78SHhhysycsupJT7aX9BD1afjek299bS8OVmHum35wk&sciund=13854706460157834700"
+                                        href="https://scholar.google.com/citations?hl=en&user=jjca4rYAAAAJ&authuser=5&scilu=&scisig=ACUpqDcAAAAAaGReblSVbj91-t-4kKtM9KnPx28&gmla=AH8HC4y1lHJmsc9nLJTEtW4MtFdWez6f9JTsJs9MGvJaVk2V-E-ze1rVs6VBo-74FOm0tt40RxCawZ6oBm3EC1ngPiTyDovaLmEyslo&sciund=10308550989155682432&gmla=AH8HC4yhdQztYKcH5_4qzr5ROqLp0tTX6dkFNBrJ_xHsBg89Fe6nmQ5Bs1lUtp2nEy12eBQJvgvfYOPR6cxZa1chAva06_tWcJ64ry8oDm8&sciund=4779118739417550724&gmla=AH8HC4zuOMs6pgyuDmj5LyGrQ3jrgOM_ocPFvWxM19vP7Onqgix3fDpHjJA1vqn70MyR41FAx5JOCeUxHGajNm8-yNTFLfwJ_UZUEiJWjKE&sciund=548984557609940444"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -98,10 +98,13 @@ export default function Home({ user }) {
 
 export async function getServerSideProps() {
     const user = {
-        name: "Rahul Modak",
-        title: "Data & AI Solutions Architect | Cloud Transformation Leader | Innovator in Intelligent Systems",
-        profileImage: "/img/Pic.jpeg",
-        about: `I am Rahul Modak, a seasoned Data, AI/ML, and Cloud Solutions Leader with over 20 years of experience, including more than a decade in architecting and leading enterprise-scale data and AI initiatives across financial, healthcare, and technology domains. My expertise spans multi-cloud architectures, big data engineering, advanced analytics, and generative AI, where I have designed and delivered high-performing, cost-effective solutions that drive measurable business outcomes. Throughout my career, I have led cross-functional teams in building award-winning AI/ML applications, scalable data platforms, and intelligent automation systems. My leadership at LPL Financial, PayPal, and CVS has centered around enabling organizations to transform their data ecosystems, improve operational efficiency, and harness the power of AI-driven insights for decision-making. As a Celent Model Wealth Manager Award Winner and a Globee Awards Judge for Artificial Intelligence, I remain passionate about driving innovation in AI, LLMs, and cloud-native architectures. I believe in fostering collaboration, mentoring talent, and aligning technology vision with business strategy to create impactful digital transformations. When not leading technology transformations, I enjoy exploring emerging advancements in AI safety, edge intelligence, and responsible machine learning—continuing my commitment to pushing the boundaries of innovation with purpose.`,
+        name: "Surya Narayana Chakka",
+        title: "SAP S/4HANA Solution Architect | Order-to-Cash & Supply Chain Transformation Expert",
+        profileImage: "/img/Pic.jpg",
+        about: `"I am Surya Narayana Chakka, a Senior SAP Solution Architect with over 20 years of global consulting experience in leading complex end-to-end SAP implementations, S/4HANA migration programs, system integration, and enterprise digital transformation. I specialize in SAP S/4HANA Sales & Distribution (SD/OTC), Supply Chain Management, Customer Service, Variant Configuration, and Logistics Execution, delivering scalable, enterprise-wide solutions across Manufacturing, Pharma, Consumer Goods, Automotive, Medical Devices, and Chemical industries.",
+  "With deep expertise in SAP ECC → S/4HANA transition strategies, business process harmonization, solution blueprinting, and cross-functional stakeholder collaboration, I help organizations modernize core business processes and achieve measurable operational efficiency. I have successfully led multiple global rollouts, migrations, upgrades, and support engagements across multi-country SAP landscapes.",
+  "I am known for bridging the gap between business and technology — working closely with business leaders, process owners, and technical teams to design SAP architectures that align with organizational goals, ensure compliance, reduce cost, and maximize long-term scalability. My leadership approach prioritizes clarity, governance, knowledge enablement, risk-controlled delivery, and high-performance team culture.",
+  "I am certified in SAP S/4HANA Sales, Order Fulfillment, and Central Finance, and I continue to stay aligned with evolving SAP innovations such as FIORI, SAP Activate methodology, Advanced ATP, BRF+, Event-Based Revenue Recognition, and next-generation integration architectures. I am passionate about helping enterprises accelerate transformation, enhance customer experience, and drive profitable business growth."`,
     };
 
     return {

@@ -7,7 +7,7 @@ export default function Awards({ articles = [] }) {
     return (
         <div className={styles.articleContainer}>
             <Head>
-                <title>Rahul Modak</title>
+                <title>Surya Narayana Chakka</title>
                 <meta name="author" content="Your Name" />
             </Head>
             <div className={styles.articleContent}>
@@ -18,6 +18,7 @@ export default function Awards({ articles = [] }) {
                             <div className={styles.card} key={index}>
                                 <div className={styles.imageWrapper}>
                                     <img
+                                    
                                         className={styles.cardImage}
                                         src={item.image}
                                         alt={`Article: ${item.title}`}
