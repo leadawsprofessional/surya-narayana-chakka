@@ -48,7 +48,7 @@ export default function Navbar() {
                 <Link href="/">Home</Link>
                 <Link href="/articles">Articles</Link>
                 <Link href="/about">About</Link>
-                <Link href="/news">Award</Link>
+                {/* <Link href="/news">Award</Link> */}
                 <Link href="/books">Books Authored</Link>
                 <Link href="/news">News</Link>
             </div>
@@ -66,9 +66,9 @@ export default function Navbar() {
                     <Link href="/about" onClick={toggleMenu}>
                         About
                     </Link>
-                    <Link href="/news" onClick={toggleMenu}>
+                    {/* <Link href="/news" onClick={toggleMenu}>
                         Award
-                    </Link>
+                    </Link> */}
                     <Link href="/books" onClick={toggleMenu}>
                         Books Authored
                     </Link>
